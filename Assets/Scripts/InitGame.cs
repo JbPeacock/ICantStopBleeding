@@ -35,6 +35,7 @@ public class InitGame : MonoBehaviour
                     GameObject instance = Instantiate(wall, new Vector3(x, -y, 0f), Quaternion.identity) as GameObject;
                 } else if(level[y,x] =='P'){
                     GameObject instance = Instantiate(player, new Vector3(x, -y, 0f), Quaternion.identity) as GameObject;
+                    instance.AddComponent<PlayerController>();
                 }
             
             }

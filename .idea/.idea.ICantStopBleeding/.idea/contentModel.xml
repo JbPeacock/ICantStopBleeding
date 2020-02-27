@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_ICantStopBleeding.1247103218.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="CameraAdjust.cs" t="Include" />
+          <e p="InitGame.cs" t="Include" />
+          <e p="LoadNewScene.cs" t="Include" />
+          <e p="MainMenuController.cs" t="Include" />
+          <e p="MenuController.cs" t="Include" />
+          <e p="NewGame.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="PlayerStartPoint.cs" t="Include" />
+          <e p="SpawnManager.cs" t="Include" />
+          <e p="SpawnManagerScriptableObject.cs" t="Include" />
+        </e>
+      </e>
+      <e p="ICantStopBleeding.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

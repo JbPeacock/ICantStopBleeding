@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, transform.position + moveDirection, moveSpeed * Time.deltaTime);
             
         }
-        if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -.5f)
+        /*if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -.5f)
         {
            
         	//transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime,0f));
@@ -58,16 +58,16 @@ public class PlayerController : MonoBehaviour
             lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical"));
             transform.position = Vector2.MoveTowards(transform.position, transform.position + moveDirection, moveSpeed * Time.deltaTime);
             
-        }
+        }*/
 
         if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f){
             playerRigidBody.velocity = new Vector2(0f, playerRigidBody.velocity.y);
             
         }
-        if (Input.GetAxisRaw("Vertical") < 0.5f && Input.GetAxisRaw("Vertical") > -0.5){
+        /*if (Input.GetAxisRaw("Vertical") < 0.5f && Input.GetAxisRaw("Vertical") > -0.5){
             playerRigidBody.velocity = new Vector2(playerRigidBody.velocity.x, 0f);
             
-        }
+        }*/
         
 
         //if (Input.GetButtonDown("Submit"))

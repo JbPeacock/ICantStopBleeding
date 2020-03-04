@@ -153,6 +153,9 @@ MonoBehaviour:
   player: {fileID: 845566402638963459, guid: b63ff047d71ac874699b6bda6437be8b, type: 3}
   height: 16
   width: 20
+  mapCenter: {fileID: 11400000, guid: 0d35f6380bf6a6496928e71d6c5de214, type: 2}
+  mapLeft: {fileID: 11400000, guid: b2f14ece848c204d3b7db08fec006403, type: 2}
+  mapRight: {fileID: 11400000, guid: e7cb7d0314ad21010815995efd9da75e, type: 2}
 --- !u!4 &151005421
 Transform:
   m_ObjectHideFlags: 0

@@ -1,11 +1,12 @@
 ﻿
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 namespace ICSB.SpawnManager
 {
 
-[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/SpawnManager", order = 1)]
+[Serializable] [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/SpawnManager", order = 1)]
 public class SpawnManagerScriptableObject : ScriptableObject
 {
     public string prefabName;
